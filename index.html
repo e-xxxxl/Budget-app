@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+   
+    <div class="heading">
+        <h3 class="shopify-text">Budget app</h3>
+        <img class="cart-img" src="images/images-removebg-preview (4).png" alt="" />
+        <h3 class="emm"> created by e-xxxl 2024.</h3>
+    </div>
+    <div class="mainn-div">
+      <div class="first-div">
+        <h3 class="budget-main-txt">Budget:</h3>
+        <input
+          placeholder="What is your budget"
+          class="first-input"
+          id="inp1"
+          type="number"
+        />
+  <button class="first-button" onclick="budgetBtn()">Enter</button>
+  <!-- <button id="budgetBtn" onclick="handleBudgetClick()">Click me</button> -->
+        <img class="money-img" src="images/money.png" alt="" />
+        
+      </div>
+
+      <div class="second-div">
+        <p class="alert alert-danger p-2 text-center" style="display: none;" id="error1">Please enter your budget
+        </p>
+        <h3 class="expense-main-txt">Expense:</h3>
+        <input placeholder="What is your Expense"class="secondd-input"id="inp2"type="text" />
+        <h3 class="qty-h3" style="position: absolute">Qty:</h3>
+        <input placeholder="qty" id="inp5" class="qty-inp" type="number" />
+        <img class="money-img2" src="images/save-money (1).png" alt="" />
+        <h3 class="amountt">Amount:</h3>
+        <input placeholder="Amount" id="inp3" class="inp-3" type="number" />
+        <button class="second-button" onclick="secondBUTTON()">Enter</button>
+        <img class="" src="" alt="" />
+        <div class="display-div" id="display"></div>
+        <div class="display2-div" id="display2"></div>
+        <div class="display3-div" id="display3"></div>
+      </div>
+    </div>
+
+    <div class="Tablediv" id="showINFO">
+      <!-- <h1>I am here to stay forever</h1>
+        <h1>I am here to stay forever</h1>
+        <h1>I am here to stay forever</h1> -->
+    </div>
+  
+        <script src="script.js">
+          
+        </script>
+    
+  </body>
+</html>

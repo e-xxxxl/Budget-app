@@ -1,0 +1,405 @@
+* {
+    justify-content: center;
+  /* margin: 0;
+    padding: 0; */
+}
+.mainn-div {
+  display: flex;
+  gap: 50px;
+}
+.first-div {
+  margin-top: 100px;
+  margin-left: 100px;
+}
+.first-button {
+  font-family: cursive;
+  border: 1px solid rgb(180, 26, 0);
+  background-color: rgb(180, 26, 0);
+  color: white;
+  border-radius: 5px;
+}
+.first-input {
+  text-align: center;
+  border-radius: 5px;
+  outline-width: 0;
+}
+.items-p {
+  position: absolute;
+  margin-top: 70px;
+  font-size: 25px;
+  color: white;
+  margin-left: 100px;
+  font-family: cursive;
+}
+.items-p2 {
+  position: absolute;
+  margin-top: 70px;
+  font-size: 25px;
+  color: black;
+  margin-left: 100px;
+  font-family: cursive;
+}
+.items-p3 {
+  position: absolute;
+  margin-top: 70px;
+  font-size: 25px;
+  color: white;
+  margin-left: 100px;
+  font-family: cursive;
+}
+.display-div {
+  position: absolute;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 100px;
+  background-color: rgb(180, 26, 0);
+  width: 250px;
+  height: 200px;
+  margin-left: -310px;
+  margin-top: 50px;
+}
+.money-img {
+  position: absolute;
+  margin-top: 100px;
+  margin-left: -200px;
+  height: 70px;
+  align-self: center;
+}
+.money-img2 {
+  /* background-color: red; */
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 0px;
+  height: 70px;
+  align-self: center;
+}
+.naira-sign {
+  font-family: cursive;
+  color: white;
+  font-weight: 700;
+  font-size: 30px;
+  margin-left: 9px;
+}
+.naira-sign2 {
+  font-family: cursive;
+  color: black;
+  font-weight: 700;
+  font-size: 30px;
+  margin-left: 9px;
+}
+.budget-txt {
+  position: absolute;
+  margin-top: 140px;
+  font-size: 30px;
+  color: white;
+  margin-left: 40px;
+  font-family: cursive;
+}
+.budget-txt2 {
+  position: absolute;
+  margin-top: 140px;
+  font-size: 30px;
+  color: black;
+  margin-left: 40px;
+  font-family: cursive;
+}
+
+.second-div {
+  margin-top: 100px;
+}
+.display2-div {
+  font-family: cursive;
+  color: black;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 100px;
+  background-color: wheat;
+  width: 250px;
+  height: 200px;
+  margin-left: 0px;
+  margin-top: 50px;
+}
+.display3-div {
+  position: absolute;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 100px;
+  background-color: rgb(180, 26, 0);
+  width: 250px;
+  height: 200px;
+  margin-left: 390px;
+  margin-top: -200px;
+}
+#inp2 {
+  width: 250px;
+}
+#inp3 {
+  margin-left: 50px;
+}
+.Tablediv {
+  margin-top: 50px;
+  font-family: cursive;
+  margin-left: 70px;
+  border-radius: 10px;
+  position: absolute;
+  width: 900px;
+  height: fit-content;
+  flex-wrap: wrap;
+  background-color: wheat;
+}
+.Biggg {
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.deleteItem-btn {
+  /* position: absolute; */
+  /* margin-left: 100px; */
+  height: 20px;
+  position: absolute;
+  color: black;
+  border: none;
+  border-radius: 7px;
+  margin-top: -35px;
+  margin-left: 700px;
+  font-family: cursive;
+}
+.edit-btn {
+  font-family: cursive;
+  margin-left: 780px;
+  position: absolute;
+  margin-top: -35px;
+  height: 20px;
+  color: black;
+  border: none;
+  border-radius: 7px;
+  
+}
+.qty-inp {
+  margin-left: 30px;
+  width: 50px;
+}
+.qty-h3 {
+  font-size: 20px;
+  margin-top: -63px;
+  margin-left: 280px;
+}
+.shopify-text {      
+  font-family: cursive;
+  color: rgb(180, 26, 0);
+  margin-top: 10px;
+}
+.cart-img {
+  height: 40px;
+  
+}
+.heading{
+    justify-content: center;
+    display: flex;
+}
+.amountt{
+  margin-left: 390px;
+  margin-top: -70px;
+  position: absolute;
+}
+@media screen and (max-width: 768px) {
+  body{
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .mainn-div {
+    display: block;
+    text-align: center;
+  }
+  .first-div {
+   margin-top: 350px;
+   margin-left: 100px;
+   
+  }
+  .heading{
+    justify-content: center;
+    display: flex;
+
+ }
+ .budget-main-txt{
+  position: absolute;
+  margin-top: -325px;
+  margin-left: -70px;
+}
+ .first-input {
+  position: absolute;
+  margin-top: -280px;
+  width: 55%;
+  margin-left: -200px;
+  height: 40px;
+  text-align: center;
+  border-radius: 5px;
+  outline-width: 0;
+}
+ .first-button {
+  position: absolute;
+  margin-top: -280px;
+  height: 40px;
+  width: 70px;
+  margin-left: 10px;
+  border: 1px solid rgb(180, 26, 0);
+  background-color: rgb(180, 26, 0);
+  color: white;
+  border-radius: 5px;
+  
+}
+.expense-main-txt{
+  position: absolute;
+  margin-top: -220px;
+  margin-left: 30px;
+}
+.secondd-input{
+  position: absolute;
+  margin-top: -170px;
+  margin-left: -150px;
+  height: 40px;
+  text-align: center;
+  border-radius: 5px;
+}
+#inp2{
+
+  width: 73%;
+}
+.second-div {
+  margin-top: 300px;
+  
+}
+.qty-h3{
+  font-size: 20px;
+  margin-top: -100px;
+  margin-left: 30px;
+}
+.qty-inp{
+  text-align: center;
+  position: absolute;
+  margin-left: -150px;
+  margin-top: -60px;
+  width: 73%;
+  border-radius: 5px;
+  height: 40px;
+
+}
+
+.inp-3{
+  /* margin-top: 50px;
+  margin-bottom: 400px;
+  margin-left: -80px; */
+}
+#inp3{
+  text-align: center;
+  position: absolute  ;
+  margin-top:   40px;
+  margin-left: -150px;
+  width: 60%;
+  border: 1px solid black;
+  height: 40px ;
+  border-radius: 5px;
+}
+.amountt{
+  margin-left: 15px;
+  /* position: absolute; */
+  margin-top: 0px;
+}
+.second-button{
+  border: none;
+  color: black;
+  background-color: wheat;
+  height: 40px;
+  width: 50px;
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 87px;
+  border-radius: 5px;
+}
+.display-div {
+
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 100px;
+  background-color: rgb(180, 26, 0);
+  width: 250px;
+  height: 200px;
+  margin-left: 50px;
+  margin-top: 100px;
+}
+
+.display2-div {
+  
+  color: black;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 100px;
+  background-color: wheat;
+  width: 250px;
+  height: 200px;
+  margin-left: 50px;
+  margin-top: 350px;
+}
+.display3-div {
+  
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 100px;
+  background-color: rgb(180, 26, 0);
+  width: 250px;
+  height: 200px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.Tablediv {
+  margin-top: 550px;
+  margin-left: 50px;
+  border-radius: 10px;
+  position: absolute;
+  width: 80%;
+  height: fit-content;
+  flex-wrap: wrap;
+  background-color: wheat;
+}
+.deleteItem-btn {
+  /* position: absolute; */
+  /* margin-left: 100px; */
+  height: 20px;
+  position: absolute;
+  
+  color: black;
+  border: none;
+  border-radius: 7px;
+  margin-top: -35px;
+  margin-left: 230px;
+  font-family: cursive;
+}
+.edit-btn {
+  font-family: cursive;
+  margin-left: 250px;
+  position: absolute;
+  margin-top: -35px;
+  height: 20px;
+  color: black;
+  border: none;
+  border-radius: 7px;
+  
+}
+.emm{
+  font-size: 16px;
+  position: absolute;
+  margin-top: 40px;
+}
+    
+ 
+}
