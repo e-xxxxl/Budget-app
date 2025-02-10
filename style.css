@@ -1,5 +1,9 @@
 * {
     justify-content: center;
+    box-sizing: border-box;
+    font-family: "Kanit", serif !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
   /* margin: 0;
     padding: 0; */
 }
